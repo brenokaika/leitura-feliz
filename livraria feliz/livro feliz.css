@@ -1,0 +1,129 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #444;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+    padding: 10px;
+}
+
+/* Banner */
+.banner {
+    background-image: url('https://via.placeholder.com/1920x500');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+/* Conteúdo Principal */
+.container {
+    padding: 20px;
+}
+
+/* Título das Seções */
+.section-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Grade de Livros */
+.book-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilo dos Livros */
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.book p {
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
